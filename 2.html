@@ -33,10 +33,8 @@
             // A primeira linha da segunda lista deve ser da cor vermelha. 
 
             var ul2 = corpo.getElementsByTagName("ul")[1];
-            console.log (ul2);
-            var arrayElementos = ul2.getElementsByTagName("li");
-            var li1 = arrayElementos[0];
-            li1.style.color = 'red';
+            var arrayElementos = ul2.getElementsByTagName("li")[0];
+            arrayElementos.style.color = 'red';
 
             // A segunda linha da terceira lista deve ser da cor verde.
             var ul3 = corpo.getElementsByTagName("ul")[2];
